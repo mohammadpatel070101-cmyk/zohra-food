@@ -1,1 +1,79 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>My Website — Services</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="logo"></span> <span>MY WEBSITE</span></a>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn-outline" href="contact.html">Get a quote</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <div class="kicker">Services</div>
+        <h1 class="h1">What we offer</h1>
+        <p class="lead">Edit these service cards and prices/details later.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="cols">
+        <div class="card">
+          <div class="item-title">Service 1</div>
+          <p class="small">Describe service 1 in detail: what’s included and who it’s for.</p>
+          <span class="tag">From R___</span><span class="tag">Fast</span><span class="tag">Reliable</span>
+        </div>
+        <div class="card">
+          <div class="item-title">Service 2</div>
+          <p class="small">Describe service 2 in detail: process, turnaround time, and support.</p>
+          <span class="tag">From R___</span><span class="tag">Premium</span><span class="tag">Support</span>
+        </div>
+        <div class="card">
+          <div class="item-title">Service 3</div>
+          <p class="small">Describe service 3 in detail. Add package options if you want.</p>
+          <span class="tag">From R___</span><span class="tag">Custom</span><span class="tag">Flexible</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="h2">How it works</h2>
+      <div class="cols">
+        <div class="card">
+          <div class="item-title">1) Contact us</div>
+          <p class="small">Send your requirement using the Contact page.</p>
+        </div>
+        <div class="card">
+          <div class="item-title">2) We respond</div>
+          <p class="small">We confirm details, pricing, and timeline.</p>
+        </div>
+        <div class="card">
+          <div class="item-title">3) Delivery</div>
+          <p class="small">We deliver the work and provide after-support if needed.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © <span id="y"></span> MY WEBSITE
+    </footer>
+  </main>
+
+  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
