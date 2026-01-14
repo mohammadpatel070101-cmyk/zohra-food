@@ -1,1 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>My Website — Contact</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="logo"></span> <span>MY WEBSITE</span></a>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn-outline" href="services.html">See services</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <div class="kicker">Contact</div>
+        <h1 class="h1">Let’s talk</h1>
+        <p class="lead">This form is a layout. You can connect it to email later.</p>
+      </div>
+    </section>
+
+    <section class="section grid-2">
+      <div class="card">
+        <h2 class="h2">Send a message</h2>
+        <form onsubmit="event.preventDefault(); alert('Form is a demo. Add a real form service later.');">
+          <div class="form-row">
+            <div>
+              <label class="small">Full name</label>
+              <input class="input" placeholder="Your name"/>
+            </div>
+            <div>
+              <label class="small">Email</label>
+              <input class="input" placeholder="you@example.com"/>
+            </div>
+          </div>
+          <div style="margin-top:12px">
+            <label class="small">Subject</label>
+            <input class="input" placeholder="How can we help?"/>
+          </div>
+          <div style="margin-top:12px">
+            <label class="small">Message</label>
+            <textarea class="input" placeholder="Write your message..."></textarea>
+          </div>
+          <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+            <button class="btn" type="submit">Send</button>
+            <a class="btn btn-outline" href="mailto:youremail@example.com">Email us</a>
+          </div>
+        </form>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Contact details</h2>
+        <p class="small"><b>Phone:</b> +27 ___ ___ ____</p>
+        <p class="small"><b>Email:</b> youremail@example.com</p>
+        <p class="small"><b>Address:</b> Your address here, South Africa</p>
+        <hr class="sep"/>
+        <p class="small">
+          You can add Google Map later by embedding a map iframe.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © <span id="y"></span> MY WEBSITE
+    </footer>
+  </main>
+
+  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
 
