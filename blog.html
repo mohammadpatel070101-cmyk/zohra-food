@@ -1,1 +1,83 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>My Website — Blog</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="logo"></span> <span>MY WEBSITE</span></a>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn-outline" href="contact.html">Subscribe</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <div class="kicker">Blog</div>
+        <h1 class="h1">Latest posts</h1>
+        <p class="lead">This blog page is ready. You can change titles and content later.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card post">
+        <div class="thumb"></div>
+        <div>
+          <div class="meta">January 2026 • 4 min read</div>
+          <div class="item-title">Post #1 — Welcome to our blog</div>
+          <p class="small">
+            Write an intro here. Explain what topics you will share (tips, updates, offers, news).
+          </p>
+          <span class="tag">News</span><span class="tag">Updates</span>
+        </div>
+      </div>
+
+      <hr class="sep"/>
+
+      <div class="card post">
+        <div class="thumb"></div>
+        <div>
+          <div class="meta">January 2026 • 5 min read</div>
+          <div class="item-title">Post #2 — Helpful tips for customers</div>
+          <p class="small">
+            Add a helpful guide. You can explain your service steps, common mistakes, and best practices.
+          </p>
+          <span class="tag">Tips</span><span class="tag">Guide</span>
+        </div>
+      </div>
+
+      <hr class="sep"/>
+
+      <div class="card post">
+        <div class="thumb"></div>
+        <div>
+          <div class="meta">January 2026 • 3 min read</div>
+          <div class="item-title">Post #3 — New offers or updates</div>
+          <p class="small">
+            Announce discounts, new products, new opening hours, or seasonal specials.
+          </p>
+          <span class="tag">Offers</span><span class="tag">Business</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © <span id="y"></span> MY WEBSITE
+    </footer>
+  </main>
+
+  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
