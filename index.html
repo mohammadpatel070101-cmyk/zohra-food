@@ -1,1 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>My Website — Home</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="logo"></span> <span>MY WEBSITE</span></a>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn-outline" href="contact.html">Get in touch</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero grid-2">
+      <div class="card">
+        <div class="kicker">Modern • Clean • Professional</div>
+        <h1 class="h1">A simple 5-page website you can edit later.</h1>
+        <p class="lead">
+          This is a ready-made template with Home, About, Services, Blog, and Contact pages.
+          Replace the text with your business details whenever you want.
+        </p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn" href="services.html">View services</a>
+          <a class="btn btn-outline" href="blog.html">Read blog</a>
+        </div>
+
+        <div class="badges">
+          <span class="badge">Fast</span>
+          <span class="badge">Mobile-friendly</span>
+          <span class="badge">Free hosting via GitHub Pages</span>
+          <span class="badge">Easy to edit</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Quick highlights</h2>
+        <p class="small">✔ Copy/paste pages</p>
+        <p class="small">✔ Nice modern design</p>
+        <p class="small">✔ Blog layout included</p>
+        <p class="small">✔ Contact form layout included</p>
+        <hr class="sep"/>
+        <p class="small">
+          Tip: You can rename “MY WEBSITE” to your brand name on each page.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="h2">What you can use this for</h2>
+      <div class="cols">
+        <div class="card">
+          <div class="item-title">Business Website</div>
+          <p class="small">Add your services, location, and contact details.</p>
+        </div>
+        <div class="card">
+          <div class="item-title">Portfolio</div>
+          <p class="small">Show your work, projects, and client testimonials.</p>
+        </div>
+        <div class="card">
+          <div class="item-title">Personal Brand</div>
+          <p class="small">Write blog posts and share updates.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © <span id="y"></span> MY WEBSITE • Built with GitHub Pages
+    </footer>
+  </main>
+
+  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
 
